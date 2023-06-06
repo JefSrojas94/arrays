@@ -6,9 +6,13 @@ Deberas realizar los ejercicios anexados abajo:
 */
 
 //EJERCICIO 1
-
+const numeros=[];
+for (let i = 0; i < 10; i++) {
+    let random=Math.floor(Math.random()*100);
+    numeros.push(random);    
+}
+console.log(numeros)
 //EJERCICIO 2
 let input = prompt("Ingrese varias palabras separadas por coma:");
-
 let array = input.split(",");
 console.log(array)
