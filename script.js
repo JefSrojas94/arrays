@@ -16,3 +16,15 @@ console.log(numeros)
 let input = prompt("Ingrese varias palabras separadas por coma:");
 let array = input.split(",");
 console.log(array)
+//EJERCICIO 3
+const arrej2=[10,40,30,20,15,5];
+arrej2.sort((a,b)=>{
+    if (a == b) {
+        return 0;
+    }else if ( a < b) {
+        return -1;
+    }else{
+    return 1;
+    }
+});
+console.log(arrej2);
